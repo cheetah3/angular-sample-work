@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en" ng-app="myapp">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <nav class="main-nav">
+    <img src="assets/img/logo.png" width="265" height="42">
+    <ul class="main-menu">
+      <li><a href="#">Overview</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+    <ul class="action-menu">
+      <li><a href="#"><i class="fa fa-external-link"></i> Docs</a></li>
+      <li><a href="#" class="success button">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <div class="main_content" ng-view></div>
+
+  <div class="footer">
+      <div class="footer__wrapper">
+          <div class="footer__wrapper__contact">
+            <img src="/assets/img/footerlogo.png" alt="SITESforCHURCH">
+            <p>PO Box 237 Matoon, IL 61938</p>
+            <p>info@sitesforchurch.com</p>
+          </div><!--/footer__wrapper__contact-->
+    </div><!--/wrapper-->
+  </div><!--/footer-->
+    
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+    <script src="assets/js/myscript.js"></script>
+    <script src="assets/js/app.js"></script>
+    <style>
+    input.ng-invalid {
+        border-bottom:2px solid red !important;
+    }
+    select.ng-invalid {
+        border-bottom:2px solid red !important;
+    }
+    </style>
+  </body>
+</html>

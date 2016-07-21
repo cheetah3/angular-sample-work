@@ -1,0 +1,26 @@
+    <div class="signup-navigation">
+        <a href="#" ><span>Step 1</span> <br> Choose A Theme</a>
+        <a href="#" class="active"><span>Step 2</span><br> Basic Info</a>
+        <a href="#"><span>Step 3</span> <br> Payment</a>
+    </div><!--/signup-navigation-->
+    <div class="signup-page step-4">
+        <div class="wrapper">
+            <div class="form">
+                <h2>Church Details</h2>
+                <p>Please provide some information about your church so that we can start to build your site.</p>
+    
+                <h3>Pastor &amp; Contact Info</h3>
+                <p>This is some of the most important information on your site so we want to set it up right away.</p>
+    
+                <form action="#">
+                    <input type="text" placeholder="Lead Pastor's Name" ng-model="PastorName" required>
+                    <input type="text" placeholder="Church Address" ng-model="ChurchAddress">
+                    <input type="text" placeholder="Church Phone Number" ng-model="ChurchPhone">
+                    <input type="text" placeholder="Church Email Adress" ng-model="ChurchEmail">       
+                </form>
+                <a href="javascript:void(0)" class="button" ng-click="continue()">Choose &amp; Continue</a>
+                <progress max="100" value="60"></progress>
+            </div><!--/form-->
+            
+        </div><!--/wrapper-->
+    </div><!--/signup-page-->

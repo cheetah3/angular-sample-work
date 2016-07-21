@@ -1,0 +1,47 @@
+ <div class="signup-navigation">
+        <a href="#" ><span>Step 1</span> <br> Choose A Theme</a>
+        <a href="#" class="active"><span>Step 2</span><br> Basic Info</a>
+        <a href="#"><span>Step 3</span> <br> Payment</a>
+    </div><!--/signup-navigation-->
+    <div class="signup-page step-3">
+        <div class="wrapper">
+            <div class="form">
+                <h2>Church Details</h2>
+                <p>Please provide some information about your church so that we can start to build your site.</p>
+    
+                <h3>Service Schedule</h3>
+                <p>For each service in your service schedule, check the box and enter the name of the service and the time.</p>
+    
+                <form action="#">
+                        <div class="service-row">
+                            <input type="checkbox" id="service-checkbox" ng-model="service1_check" checked>
+                            <input type="text" ng-model="service1_name">
+                            <input type="text" ng-model="service1_time"> 
+                        </div><!--/service-row-->
+                        <div class="service-row">
+                            <input type="checkbox" id="service-checkbox" ng-model="service2_check" checked>
+                            <input type="text" ng-model="service2_name">
+                            <input type="text" ng-model="service2_time"> 
+                        </div><!--/service-row-->
+                        <div class="service-row">
+                            <input type="checkbox" id="service-checkbox" ng-model="service3_check" checked>
+                            <input type="text" ng-model="service3_name">
+                            <input type="text" ng-model="service3_time"> 
+                        </div><!--/service-row-->
+                        <div class="service-row">
+                            <input type="checkbox" id="service-checkbox" ng-model="service4_check" checked>
+                            <input type="text" ng-model="service4_name">
+                            <input type="text" ng-model="service4_time"> 
+                        </div><!--/service-row-->
+                        <div class="service-row">
+                            <input type="checkbox" id="service-checkbox" ng-model="service5_check">
+                            <input type="text" ng-model="service5_name">
+                            <input type="text" ng-model="service5_time"> 
+                        </div><!--/service-row-->
+                </form>
+                <a href="javascript:void(0)" class="button" ng-click="continue()">Choose &amp; Continue</a>
+                <progress max="100" value="35"></progress>
+            </div><!--/form-->
+            
+        </div><!--/wrapper-->
+    </div><!--/signup-page-->

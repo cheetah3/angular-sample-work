@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html class="no-js" lang="en" ng-app="myapp">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <nav class="main-nav">
+  <img src="assets/img/logo.png" width="265" height="42">
+  <ul class="main-menu">
+    <li><a href="#">Overview</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Blog</a></li>
+  </ul>
+  <ul class="action-menu">
+    <li><a href="#"><i class="fa fa-external-link"></i> Docs</a></li>
+    <li><a href="/signup1.html" class="success button">Sign Up</a></li>
+  </ul>
+  </nav>
+  
+    
+    <div class="blogPost">
+        <div class="blogPost__header">
+            <h1><a href="#">Awesome Blog Post Title</a></h1>
+            <p>Written by: Ryan Hayden on March 1, 2016</p>
+            <img src="http://placehold.it/560x315" alt="Blog Featured Image">\
+        </div><!--/blogPost__header-->
+        <div class="blogPost__content">
+            <h2>main heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex ab, ea, rem quasi voluptatibus modi cupiditate aliquam magni numquam harum qui accusamus a itaque laudantium, rerum dolores pariatur voluptatem!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut obcaecati eligendi animi, magnam unde maxime necessitatibus soluta modi esse perferendis ullam, dicta quos, repudiandae dolores tempora officia! Repellendus ducimus, dignissimos.</p>
+            <h3>Sample Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, officia! Repellendus ea repudiandae, error deserunt, maiores libero accusantium atque provident similique, nobis illum asperiores praesentium odio beatae iste. Sunt, suscipit!</p>
+            <blockquote>"For God so loved the world that He gave his only begotton son."</blockquote>
+            <ul>
+                <li>Bullet 1</li>
+                <li>Bullet 2</li>
+                <li>Bullet 3</li>
+            </ul>
+            <ol>
+                <li>point 1</li>
+                <li>point 2</li>
+                <li>point 3</li>
+            </ol>
+    
+            <h4>Another heading</h4>
+        </div><!--/blogPost__content-->
+    
+    </div><!--/blogPost-->
+    
+    <div class="footer">
+      <div class="footer__wrapper">
+          <div class="footer__wrapper__contact">
+            <img src="/assets/img/footerlogo.png" alt="SITESforCHURCH">
+            <p>PO Box 237 Matoon, IL 61938</p>
+            <p>info@sitesforchurch.com</p>
+          </div><!--/footer__wrapper__contact-->
+    </div><!--/wrapper-->
+    </div><!--/footer-->
+    
+
+    <div class="container wrapper">
+      <div class="main_content" ng-view></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
